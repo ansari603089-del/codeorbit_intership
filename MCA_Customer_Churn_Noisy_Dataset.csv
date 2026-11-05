@@ -1,0 +1,511 @@
+Customer_ID,Customer_Name,Age,City,Plan,Contract_Type,Tenure_Months,Monthly_Charge_INR,Total_Charges_INR,Internet_Service,Tech_Support,Payment_Method,Last_Login_Days_Ago,Churn
+CUST0001,Priya Kumar,28.0,,Basic,One year,51,2390.57,119782.94,DSL,Yes,Credit card,74,Yes
+CUST0002,Priya Sharma,38.0,,Premium,One year,23,1730.95,35348.85,Fiber optic,Yes,UPI,32,Yes
+CUST0003,Rahul Patel,45.0,Pune,Standard,Monthly,57,INR 1453.46,77915.52,No,Yes,Cash,59,Yes
+CUST0004,Arjun Khan,20.0,Pune ,Standard,Monthly,14,1302.35,18049.2,Fiber optic,No,UPI,50,No
+CUST0005,Sneha Khan,26.0,Vijayawada,Premium,Two year,6,,3596.35,Fiber optic,Yes,Credit card,89,No
+CUST0006,Rohan Sharma,52.0,Bengaluru,Standard,One year,52,806.97,38342.91,Fiber optic,Yes,Debit card,77,No
+CUST0007,Pooja Singh,46.0,Hyderabad,Basic,Monthly,35,699.92,24148.13,No,No,Cash,62,No
+CUST0008,Priya Khan,25.0,Bengaluru,Standard,Two year,17,2004.29,34465.79,No,No,Cash,77,No
+CUST0009,Pooja Patel,62.0,Bengaluru,Premium,Monthly,61,1014.73,57838.9,DSL,Yes,Credit Card,40,Yes
+CUST0010,Rahul Patel,41.0,Bengaluru ,Standard,Two year,28,2063.83,51455.9,Fiber optic,No,Bank transfer,62,No
+CUST0011,Pooja Reddy,75.0,Vijayawada,Standard,One year,10,736.45,7214.17,Fiber optic,Yes,Debit card,40,No
+CUST0012,Rahul Reddy,41.0,Delhi,Basic,Monthly,27,2197.83,57398.68,No,Yes,Credit card,36,Yes
+CUST0013,Varun Khan,18.0,Mumbai,Basic,Monthly,43,1701.63,73478.12,No,Yes,Debit card,4,No
+CUST0014,Ananya Patel,49.0,Hyderabad,Basic,Monthly,13,1385.35,17166.39,Fiber optic,No,Debit card,999,Yes
+CUST0015,Rahul Patel,49.0,Kolkata,Standard,Monthly,3,2295.65,6300.88,No,No,Credit card,70,Yes
+CUST0016,Isha Khan,45.0,Visakhapatnam,Basic,One year,58,1827.53,106342.87,DSL,No,Credit card,27,Yes
+CUST0017,Divya Singh,50.0,Kolkata,Basic,Monthly,43,1215.32,52449.99,Fiber optic,No,Debit card,0,Yes
+CUST0018,Divya Reddy,26.0,Delhi,Basic,Two year,26,1238.64,32028.23,Fiber optic,Yes,UPI,61,No
+CUST0019,Priya Reddy,41.0,Chennai,Basic,Monthly,36,1822.36,60206.83,No,No,Cash,51,Yes
+CUST0020,Rahul Khan,66.0,Guntur,Standard,Monthly,61,2436.92,150843.64,No,No,Cash,55,Yes
+CUST0021,Vikram Kumar,36.0,Bengaluru,Basic,Monthly,58,1640.04,90401.88,No,No,Debit card,1,No
+CUST0022,Priya Singh,34.0,Guntur,Standard,Monthly,52,1375.8,72828.71,DSL,No,UPI,37,No
+CUST0023,Vikram Reddy,26.0,Delhi,Premum,Monthly,23,1333.66,31216.48,DSL,No,Cash,58,No
+CUST0024,Arjun Reddy,36.0,Vijayawada,Basic,Monthly,69,99999.0,126277.0,DSL,Yes,Cash,19,No
+CUST0025,Rohan Das,45.0,Hyderabad,Premium,Monthly,70,682.61,46670.86,DSL,No,Debit card,56,Yes
+CUST0026,Divya Kumar,74.0,Pune,Standard,Monthly,49,2333.33,114656.45,No,Yes,UPI,59,No
+CUST0027,Isha Sharma,58.0,Delhi,Premium,One year,1,2490.76,2528.52,DSL,Yes,Credit Card,18,Yes
+CUST0028,Sneha Singh,66.0,Delhi,Premium,Monthly,47,2161.65,101585.91,No,No,upi,71,No
+CUST0029,Arjun Singh,46.0,Guntur,Basic,Monthly,35,2275.82,76857.86,No,No,Bank transfer,17,No
+CUST0030,Varun Sharma,38.0,Pune,Standard,Monthly,65,,114975.65,DSL,Yes,Debit card,47,Yes
+CUST0031,Aarav Patel,68.0,Kolkata,Basic,One year,19,1105.23,20667.24,DSL,Yes,UPI,85,No
+CUST0032,Ananya Patel,51.0,Bengaluru,Premium,Monthly,21,835.78,17836.09,DSL,No,,20,No
+CUST0033,Divya Singh,21.0,Visakhapatnam,Basic,Two year,29,1718.23,48515.65,DSL,Yes,Cash,34,No
+CUST0034,Isha Patel,52.0,Visakhapatnam,Premium,Two year,-2,1719.04,97988.92,Fiber optic,Yes,UPI,36,No
+CUST0035,Priya Khan,38.0,Vijayawada,Premium,One year,23,1026.65,22606.73,Fiber optic,No,Bank transfer,31,Yes
+CUST0036,Ananya Sharma,57.0,Hyderabad,Premium,One year,32,996.23,28810.3,Fiber optic,No,UPI,45,No
+CUST0037,Divya Patel,43.0,Pune,Basic,Monthly,23,758.62,16993.91,No,No,Credit card,16,Yes
+CUST0038,Neha Reddy,67.0,Mumbai,Basic,One year,32,599.57,18788.08,Fiber optic,Yes,UPI,24,No
+CUST0039,Varun Sharma,63.0,Hyderabad,Standard,Monthly,23,2308.13,50516.94,No,Yes,UPI,250,No
+CUST0040,Divya Reddy,0.0,Guntur,Basic,Monthly,13,2257.01,27208.6,Fiber optic,No,Credit card,50,No
+CUST0041,Sanjay Kumar,59.0,Chennai,Premium,Two year,24,640.09,15630.35,Fiber optic,Yes,Bank transfer,69,No
+CUST0042,Vikram Das,22.0,Mumbai,Standard,Monthly,14,1091.42,13718.1,Fiber optic,No,Credit card,67,Yes
+CUST0043,Arjun Singh,30.0,Pune,Standard,Monthly,5,412.7,1969.38,DSL,Yes,Debit card,29,No
+CUST0044,Ananya Kumar,70.0,Kolkata,Basic,Monthly,18,2048.41,33844.85,Fiber optic,Yes,UPI,61,Yes
+CUST0045,Rahul Reddy,49.0,Bengaluru,Premium,Monthly,22,1241.29,26663.63,No,Yes,Credit card,47,No
+CUST0046,Sanjay Sharma,29.0,Kolkata,Standard,One year,0,2399.7,0.0,DSL,Yes,Cash,25,No
+CUST0047,Rahul Khan,47.0,Kolkata,Basic,Monthly,15,648.02,8717.39,No,No,Debit card,61,Yes
+CUST0048,Arjun Rao,47.0,Pune,Standard,Monthly,68,1342.18,81566.13,Fiber optic,No,Credit card,22,Yes
+CUST0049,Meera Das,49.0,,Basic,Monthly,9,2387.12,21572.92,DSL,Yes,Bank transfer,0,No
+CUST0050,Priya Sharma,49.0,Delhi,Premium,Two year,68,1803.72,118509.64,DSL,No,Credit card,90,No
+CUST0051,Pooja Sharma,29.0,Pune,Premium,Monthly,23,1788.77,39507.21,Fiber optic,No,Credit card,66,No
+CUST0052,Varun Singh,19.0,Kolkata,Basic,Monthly,64,2413.62,155514.22,No,Yes,Cash,34,Yes
+CUST0053,Meera Sharma,75.0,Chennai,Basic,Monthly,7,1146.87,7830.81,Fiber optic,Yes,UPI,74,No
+CUST0054,Kiran Singh,41.0,Mumbai ,Standard,Two year,28,385.21,10122.68,No,,Debit card,63,No
+CUST0055,Arjun Singh,49.0,Delhi,Standard,Monthly,48,1908.63,82258.28,Fiber optic,No,UPI,36,No
+CUST0056,Rahul Khan,37.0,Mumbai,Basic,One year,11,1242.79,13467.3,DSL,Yes,Debit card,88,No
+CUST0057,Kiran Singh,24.0,Chennai,Premium,Monthly,12,2269.15,25445.93,No,No,Cash,27,Yes
+CUST0058,Neha Kumar,38.0,Bengaluru,Basic,Monthly,51,1560.56,77078.11,DSL,Yes,Cash,52,Yes
+CUST0059,Ananya Rao,75.0,Kolkata,Premium,Two year,22,2017.85,39770.76,No,Yes,Bank transfer,4,No
+CUST0060,Kiran Kumar,61.0,Mumbai,Basic,Monthly,34,2251.95,71139.9,Fiber optic,Yes,Debit card,16,No
+CUST0061,Arjun Patel,46.0,Bengaluru,Premium,Monthly,6,1236.4,6759.35,Fiber optic,No,Cash,36,Yes
+CUST0062,Kiran Patel,42.0,Chennai,Premium,Monthly,37,2469.61,85198.39,DSL,No,UPI,44,No
+CUST0063,Sneha Rao,27.0,Guntur,Standard,Monthly,3,1069.48,3141.53,No,Yes,Debit card,89,No
+CUST0064,Sneha Sharma,45.0,Guntur,Standard,Monthly,18,543.63,9285.97,DSL,No,Credit card,71,Yes
+CUST0065,Arjun Das,66.0,Vijayawada,Basic,One year,60,2109.14,124547.62,Fiber optic,Yes,Credit card,250,No
+CUST0066,Aarav Patel,64.0,Guntur,Premium,One year,55,1461.41,75642.27,Fiber optic,No,UPI,20,No
+CUST0067,Vikram Rao,48.0,Delhi,Standard,Monthly,35,1517.48,53945.78,Fiber optic,No,UPI,0,No
+CUST0068,Priya Singh,25.0,Chennai,Basic,Monthly,53,1584.49,84495.45,No,No,UPI,75,No
+CUST0069,Priya Khan,67.0,Vijayawada,Standard,Monthly,23,1663.29,35150.59,No,No,Bank transfer,27,Yes
+CUST0070,Priya Khan,30.0,Kolkata,Basic,Monthly,40,870.89,32865.78,DSL,No,UPI,28,Yes
+CUST0071,Neha Kumar,19.0,Delhi,Standard,Two year,12,2303.04,27502.59,No,Yes,Debit card,9,No
+CUST0072,Neha Sharma,35.0,Vijayawada,Standard,Monthly,55,2227.66,117280.12,No,No,UPI,48,No
+CUST0073,Meera Singh,51.0,Guntur,Premium,Two year,10,1606.09,14990.03,Fiber optic,No,Debit card,0,No
+CUST0074,Kiran Patel,,Guntur,Premium,One year,20,423.03,8469.58,No,No,Credit card,22,No
+CUST0075,Meera Khan,68.0,Delhi,Standard,Monthly,52,2377.48,123499.23,DSL,No,Debit card,44,Yes
+CUST0076,Arjun Khan,43.0,Kolkata,Standard,One year,3,802.01,2343.56,No,No,Bank transfer,33,Yes
+CUST0077,Varun Das,47.0,Pune,Standard,Two year,85,1998.1,100903.28,No,No,Credit card,56,No
+CUST0078,Rahul Singh,68.0,Delhi,Standard,One year,16,593.83,8399.41,No,No,UPI,37,No
+CUST0079,Divya Singh,51.0,Pune,Standard,One year,63,INR 331.0,19374.15,DSL,Yes,UPI,51,No
+CUST0080,Ananya Patel,46.0,Visakhapatnam,Standard,Monthly,85,1291.0,48123.63,No,Yes,Bank transfer,3,No
+CUST0081,Neha Patel,70.0,Guntur,Standard,Monthly,9,2337.49,19962.32,Fiber optic,No,Credit card,65,No
+CUST0082,Kiran Kumar,71.0,Bengaluru,,Monthly,42,827.32,30946.8,Fiber optic,Yes,Credit card,15,Yes
+CUST0083,Varun Kumar,49.0,Delhi,Premium,Monthly,7,695.15,4756.61,DSL,Yes,Bank transfer,49,No
+CUST0084,Kiran Das,38.0,Delhi,Basic,Monthly,60,722.04,38371.59,No,No,Bank transfer,69,Yes
+CUST0085,Neha Das,44.0,Chennai,Basic,Two year,120,1474.73,0.0,No,No,Bank transfer,72,No
+CUST0086,Vikram Patel,34.0,Mumbai,Premium,Monthly,25,2057.7,49791.51,No,No,Credit card,25,No
+CUST0087,Vikram Das,39.0,Bengaluru,Basic,Monthly,35,2072.64,71436.59,No,No,Credit card,13,Yes
+CUST0088,Vikram Rao,24.0,Vijayawada,Basic,One year,27,1110.61,28329.86,No,Yes,Credit card,2,No
+CUST0089,Kiran Patel,32.0,Guntur,Standard,Monthly,22,1424.69,29916.94,No,Yes,Credit card,63,No
+CUST0090,Rahul Khan,34.0,Guntur,Basic,Monthly,27,343.16,8571.26,Fiber optic,No,Bank transfer,12,Yes
+CUST0091,Ananya Patel,51.0,Guntur,Basic,Monthly,24,1793.03,42623.22,Fiber optic,Yes,Cash,7,No
+CUST0092,Sanjay Das,51.0,Hyderabad,Standard,Monthly,39,1248.65,43723.46,Fiber optic,No,Bank transfer,58,No
+CUST0093,Neha Patel,23.0,Visakhapatnam ,Basic,Two year,55,1395.14,71073.57,DSL,No,Bank transfer,3,No
+CUST0094,Isha Kumar,57.0,Guntur,Basic,Two year,61,926.21,51090.31,Fiber optic,No,Credit card,35,No
+CUST0095,Varun Reddy,66.0,Kolkata,Premium,Two year,23,545.49,11739.54,No,Yes,Bank transfer,50,No
+CUST0096,Aarav Sharma,23.0,Guntur,Basic,One year,61,INR 2343.63,136949.45,DSL,No,Credit card,25,No
+CUST0097,Ananya Singh,55.0,Guntur,Basic,Monthly,67,1234.96,78693.36,Fiber optic,Yes,Bank transfer,36,No
+CUST0098,Rohan Rao,125.0,Guntur,Standard,One year,10,2349.43,21729.64,Fiber optic,No,Debit card,22,No
+CUST0099,Rahul Das,34.0,Hyderabad,Basic,One year,9,2476.91,20623.16,No,Yes,Debit card,8,No
+CUST0100,Divya Sharma,61.0,Hyderabad,Premium,Monthly,14,1336.47,17544.12,DSL,Yes,Credit card,49,No
+CUST0101,Aarav Reddy,46.0,Pune,Standard,Two year,8,750.0,5598.55,DSL,No,UPI,71,Yes
+CUST0102,Arjun Das,31.0,Mumbai,Basic,Monthly,10,2048.59,18605.86,Fiber optic,,Cash,25,No
+CUST0103,Priya Reddy,31.0 years,Mumbai,Premium,Monthly,61,1088.43,66580.67,DSL,Yes,Debit card,31,No
+CUST0104,Sanjay Khan,64.0,Pune,Standard,Monthly,50,1672.02,79886.55,DSL,Yes,UPI,65,Yes
+CUST0105,Meera Sharma,25.0,Kolkata,Premium,Monthly,52,99999.0,115360.18,DSL,No,Cash,41,No
+CUST0106,Neha Rao,46.0,Bengaluru,Standard,Monthly,63,665.81,42072.21,No,No,UPI,37,No
+CUST0107,Neha Das,27.0,Bengaluru,Basic,One year,56,984.79,50448.97,Fiber optic,No,Bank transfer,4,No
+CUST0108,Kiran Khan,25.0,Chennai,Standard,Monthly,37,1479.26,51067.45,No,No,Cash,4,No
+CUST0109,Isha Das,53.0,Guntur,Standard,One year,28,803.35,22069.01,No,No,Debit card,25,No
+CUST0110,Divya Sharma,40.0,Mumbai,Basic,Two year,42,1616.86,67619.64,Fiber optic,Yes,Bank transfer,46,No
+CUST0111,Sanjay Rao,57.0,Hyderabad,Basic,Monthly,45,1651.89,74904.41,Fiber optic,,Credit card,59,Yes
+CUST0112,Isha Patel,59.0,Vijayawada,Premium,One year,42,2349.66,94651.31,Fiber optic,No,Credit Card,30,No
+CUST0113,Vikram Kumar,63.0,Delhi,Premium,Two year,8,1232.09,9690.16,DSL,Yes,Credit card,20,No
+CUST0114,Neha Das,38.0,Delhi,Standard,Two year,35,573.26,20243.03,DSL,No,Bank transfer,46,No
+CUST0115,Varun Kumar,69.0,Bengaluru,Standard,One year,72,1936.35,126699.73,Fiber optic,,Bank transfer,24,Yes
+CUST0116,Divya Singh,61.0,Kolkata,Standard,One year,37,1060.96,36451.63,Fiber optic,No,Cash,50,No
+CUST0117,Pooja Khan,60.0,Delhi,Premium,Monthly,53,687.05,34584.65,Fiber optic,No,Bank transfer,21,Yes
+CUST0118,Vikram Singh,71.0,Mumbai,Premium,Monthly,25,327.81,7973.12,DSL,Yes,Credit card,85,Yes
+CUST0119,Rohan Sharma,125.0,Delhi,Basic,One year,62,2492.12,146833.35,No,Yes,Credit card,82,No
+CUST0120,Arjun Das,35.0,Mumbai,Standard,Monthly,61,750.31,41498.5,No,No,UPI,0,No
+CUST0121,Arjun Singh,21.0,Pune,Standard,Monthly,46,1459.83,64118.5,Fiber optic,Yes,Debit card,0,No
+CUST0122,Aarav Reddy,50.0,Mumbai,Basic,Monthly,7,2194.93,15555.89,DSL,Yes,Cash,86,No
+CUST0123,Meera Reddy,41.0,Visakhapatnam,Basic,One year,54,642.54,34011.41,DSL,Yes,Cash,-10,No
+CUST0124,Meera Das,45.0,Visakhapatnam,Standard,Monthly,58,1411.12,78841.81,Fiber optic,No,Credit card,7,No
+CUST0125,Ananya Singh,69.0,Visakhapatnam,Premium,One year,33,2070.69,69591.6,DSL,Yes,Bank transfer,36,No
+CUST0126,Isha Sharma,40.0,Kolkata,Basic,Two year,53,749.97,36609.9,No,Yes,Credit card,84,No
+CUST0127,Kiran Singh,22.0,Bengaluru,Standard,One year,18,569.11,10271.66,DSL,Yes,Cash,19,No
+CUST0128,Neha Patel,55.0,Delhi,Basic,One year,10,869.73,8115.95,Fiber optic,,Bank transfer,8,No
+CUST0129,Meera Khan,73.0,Mumbai,Premum,One year,52,946.82,49864.03,No,Yes,Cash,58,No
+CUST0130,Priya Patel,63.0,Pune,Basic,Monthly,13,1930.71,24542.99,Fiber optic,Yes,Credit card,3,No
+CUST0131,Divya Reddy,38.0,Delhi,,Monthly,25,1455.52,32896.03,DSL,Yes,UPI,41,No
+CUST0132,Neha Das,59.0,,Premium,One year,40,901.92,34546.6,Fiber optic,No,UPI,85,No
+CUST0133,Divya Singh,24.0,Mumbai,Standard,One year,26,2279.04,59393.97,No,No,UPI,9,No
+CUST0134,Divya Singh,71.0,Kolkata,Standard,One year,44,2142.84,88308.56,No,Yes,Bank transfer,64,No
+CUST0135,Priya Patel,53.0,Chennai,Premium,Monthly,50,497.74,24586.81,Fiber optic,Yes,UPI,58,No
+CUST0136,Ananya Reddy,73.0,Mumbai,Premium,Monthly,38,1641.89,63196.86,No,No,Bank transfer,32,Yes
+CUST0137,Priya Das,-5.0,Mumbai,Premium,Two year,35,1486.65,46969.02,No,No,Debit card,72,No
+CUST0138,Isha Das,57.0,Bengaluru,Standard,Monthly,25,1342.32,31149.0,No,Yes,Bank transfer,41,No
+CUST0139,Rohan Singh,51.0,Hyderabad,Standard,One year,24,841.08,20078.42,DSL,Yes,Cash,11,No
+CUST0140,Aarav Singh,66.0,Kolkata,Standard,Two year,18,99999.0,17715.82,DSL,Yes,Bank transfer,46,No
+CUST0141,Varun Singh,71.0,Chennai,Premium,One year,11,1491.18,16439.27,No,No,Bank transfer,79,No
+CUST0142,Rahul Das,43.0,Vijayawada,Standard,One year,69,2456.27,170579.34,Fiber optic,No,Debit card,46,Yes
+CUST0143,Priya Reddy,125.0,Vijayawada,Standard,Monthly,31,,57936.56,Fiber optic,No,Debit card,78,No
+CUST0144,Sanjay Kumar,47.0,Visakhapatnam,Premium,Two year,6,953.17,5772.87,DSL,No,Debit card,38,No
+CUST0145,Rohan Sharma,62.0,Guntur,Standard,One year,17,1448.36,23889.28,No,Yes,Cash,2,No
+CUST0146,Varun Khan,21.0,Hyderabad,Standard,Monthly,36,1465.58,49687.27,DSL,No,Cash,85,No
+CUST0147,Isha Das,52.0,Hyderabad,Premium,Monthly,24,1922.28,43958.25,DSL,No,Cash,41,Yes
+CUST0148,Kiran Singh,56.0,Visakhapatnam,Premium,Monthly,33,345.79,11439.12,No,No,UPI,45,No
+CUST0149,Aarav Patel,64.0,Chennai,Standard,Monthly,28,1986.81,52085.36,Fiber optic,Yes,Cash,9,No
+CUST0150,Neha Sharma,31.0,Pune,Basic,One year,29,1218.09,33169.45,DSL,No,UPI,29,Yes
+CUST0151,Kiran Das,32.0,Mumbai,Premium,Monthly,67,1873.22,120796.16,No,No,Bank transfer,48,Yes
+CUST0152,Isha Das,73.0,Pune,Basic,One year,67,779.16,52882.08,Fiber optic,Yes,Bank transfer,62,No
+CUST0153,Arjun Reddy,25.0,Bengaluru,Standard,Two year,45,1620.76,73409.83,Fiber optic,No,Debit card,19,Yes
+CUST0154,Vikram Kumar,58.0,,Basic,Monthly,62,806.25,49802.04,No,No,Cash,2,Yes
+CUST0155,Isha Reddy,66.0,Visakhapatnam,Standard,Monthly,5,2060.69,9975.48,No,No,Debit card,60,No
+CUST0156,Rohan Khan,73.0,Visakhapatnam,Premium,Monthly,34,,65373.41,Fiber optic,Yes,Credit card,88,Yes
+CUST0157,Sanjay Patel,46.0,Guntur,Standard,Monthly,72,2267.83,163351.97,DSL,No,,8,Yes
+CUST0158,Sanjay Khan,51.0,Chennai ,Standard,One year,66,2401.43,158604.99,Fiber optic,Yes,Credit card,87,No
+CUST0159,Rohan Sharma,30.0,Visakhapatnam,Basic,Monthly,37,870.46,31604.07,DSL,No,UPI,27,Yes
+CUST0160,Kiran Khan,20.0,Chennai,Standard,Two year,68,2480.25,149870.7,DSL,No,Debit card,55,No
+CUST0161,Rohan Khan,57.0,Bengaluru,Premium,Monthly,39,1790.64,66985.87,Fiber optic,No,Debit card,58,No
+CUST0162,Isha Kumar,44.0,Kolkata,Premium,Monthly,58,651.88,35039.95,DSL,Yes,Debit card,37,Yes
+CUST0163,Divya Sharma,27.0,Guntur,Basic,Two year,59,647.93,38354.86,DSL,Yes,Bank transfer,31,No
+CUST0164,Sneha Singh,56.0,Hyderabad,Premium,One year,52,1934.72,90797.05,DSL,No,UPI,65,No
+CUST0165,Meera Rao,41.0,Vijayawada,Basic,One year,12,1656.24,20220.03,Fiber optic,Yes,Credit card,34,No
+CUST0166,Neha Reddy,32.0,Chennai,Premium,Monthly,69,922.35,56169.28,DSL,Yes,Cash,36,Yes
+CUST0167,Sanjay Patel,39.0,,Basic,Monthly,21,2360.9,48404.08,No,Yes,Credit card,16,No
+CUST0168,Varun Singh,64.0,Visakhapatnam,Premium,Monthly,9,1340.86,10717.47,Fiber optic,Yes,Bank transfer,28,No
+CUST0169,Meera Reddy,64.0,Bengaluru,Basic,Monthly,35,1723.66,58108.96,Fiber optic,No,Cash,78,No
+CUST0170,Meera Khan,34.0,Mumbai,Basic,Monthly,31,,60306.51,Fiber optic,No,Credit card,12,No
+CUST0171,Sanjay Das,37.0,Bengaluru,Premium,Monthly,38,1458.45,55178.85,DSL,No,Cash,21,No
+CUST0172,Pooja Singh,54.0,Mumbai,Standard,Monthly,26,2208.72,58279.69,DSL,No,upi,58,No
+CUST0173,Aarav Kumar,51.0,Kolkata,basic,Monthly,5,1971.21,9283.63,No,No,upi,60,No
+CUST0174,Divya Rao,25.0,,Premium,Monthly,34,367.49,12135.23,No,Yes,Cash,59,No
+CUST0175,Vikram Reddy,24.0,Bengaluru,Standard,Monthly,45,747.14,30015.85,No,Yes,Debit card,2,No
+CUST0176,Varun Kumar,47.0,Kolkata,Basic,Two year,63,946.17,60065.14,Fiber optic,Yes,UPI,77,No
+CUST0177,Meera Rao,39.0,,Basic,Monthly,70,574.41,39242.85,DSL,Yes,Credit card,1,No
+CUST0178,Pooja Singh,63.0,Chennai,Basic,Monthly,71,981.8,65785.4,Fiber optic,No,Debit card,37,Yes
+CUST0179,Rohan Sharma,68.0,Visakhapatnam,Premium,Two year,31,1744.36,53317.47,DSL,Yes,Credit card,87,No
+CUST0180,Sanjay Rao,37.0,Bengaluru,Standard,Monthly,40,831.5,33863.1,Fiber optic,Yes,Debit card,32,No
+CUST0181,Priya Das,50.0,Vijayawada,Basic,Monthly,39,320.5,11570.84,No,No,Cash,76,Yes
+CUST0182,Sanjay Rao,51.0,Bengaluru,Standard,One year,25,1172.23,26333.57,No,Yes,Bank transfer,43,No
+CUST0183,Aarav Rao,48.0,Kolkata,Standard,Two year,48,2392.41,103052.48,DSL,Yes,Bank transfer,31,No
+CUST0184,Meera Khan,24.0,Bengaluru,Premium,One year,40,1858.93,74501.13,DSL,Yes,UPI,74,No
+CUST0185,Meera Das,31.0,Bengaluru,Basic,Monthly,3,1613.45,4790.67,DSL,Yes,Cash,74,Yes
+CUST0186,Kiran Khan,53.0,Visakhapatnam,Basic,Two year,11,842.63,8363.69,Fiber optic,No,,44,No
+CUST0187,Kiran Khan,36.0,Bengaluru,Basic,Monthly,7,2217.03,14599.1,Fiber optic,No,Debit card,21,Yes
+CUST0188,Ananya Rao,46.0,Pune,Basic,One year,36,2490.93,91150.5,Fiber optic,No,Credit card,53,No
+CUST0189,Pooja Sharma,41.0,Vijayawada,Premium,Monthly,62,746.87,46197.74,No,No,UPI,19,Yes
+CUST0190,Sanjay Singh,49.0,Pune,Basic,Two year,36,1060.06,35565.05,DSL,No,UPI,35,No
+CUST0191,Arjun Kumar,29.0,Hyderabad,Premium,One year,65,1613.99,103966.62,Fiber optic,Yes,Credit card,2,No
+CUST0192,Arjun Sharma,40.0,Delhi,Standard,Monthly,17,1688.43,28204.9,DSL,Yes,Credit card,41,No
+CUST0193,Rohan Reddy,71.0,Kolkata,Basic,Monthly,43,1119.27,45807.18,DSL,No,Credit card,59,No
+CUST0194,Kiran Singh,74.0,Chennai,Basic,One year,13,1431.6,17313.49,DSL,Yes,Credit card,27,No
+CUST0195,Aarav Rao,40.0,Pune,Standard,One year,65,2186.57,125251.49,No,No,UPI,46,No
+CUST0196,Sneha Singh,47.0,Hyderabad,Standard,Monthly,30,818.31,21855.99,DSL,No,Cash,0,Yes
+CUST0197,Priya Sharma,,Visakhapatnam,Basic,One year,4,846.17,3270.96,Fiber optic,No,Cash,36,Yes
+CUST0198,Priya Das,32.0,Delhi,Premium,Two year,46,1759.37,76597.03,DSL,Yes,Cash,5,No
+CUST0199,Meera Das,18.0,Hyderabad,Basic,Monthly,60,374.21,22859.82,DSL,No,Bank transfer,34,Yes
+CUST0200,Neha Sharma,37.0,Visakhapatnam,Standard,Monthly,69,695.02,42796.17,No,No,UPI,52,No
+CUST0201,Rahul Rao,60.0,Kolkata,STANDARD,Two year,42,337.24,13105.15,DSL,Yes,Credit card,49,No
+CUST0202,Vikram Rao,59.0,Guntur,Basic,Monthly,22,1766.1,34951.34,No,No,Bank transfer,7,No
+CUST0203,Neha Sharma,18.0,Bengaluru,Premium,Monthly,0,1906.82,0.0,No,Yes,Bank transfer,54,Yes
+CUST0204,Varun Patel,29.0,Guntur,Premium,One year,42,1802.15,71875.85,Fiber optic,No,Bank transfer,90,No
+CUST0205,Neha Sharma,65.0,Vijayawada,Premium,One year,71,2049.12,146740.88,Fiber optic,No,Debit card,68,No
+CUST0206,Pooja Reddy,65.0,Visakhapatnam,Premium,Monthly,61,1746.26,108643.55,DSL,Yes,UPI,12,Yes
+CUST0207,Rahul Khan,21.0,Bengaluru,Standard,Monthly,72,498.06,33006.41,No,No,Credit card,18,No
+CUST0208,Ananya Rao,71.0,Bengaluru,Premium,Monthly,69,2282.03,157917.45,Fiber optic,No,Bank transfer,70,Yes
+CUST0209,Ananya Singh,50.0,Kolkata,Standard,One year,14,1685.46,22779.45,Fiber optic,No,UPI,48,No
+CUST0210,Arjun Reddy,0.0,Visakhapatnam,Standard,One year,34,798.99,24184.16,DSL,Yes,Debit card,8,No
+CUST0211,Pooja Sharma,42.0,Mumbai,,Two year,2,1492.2,3023.81,No,Yes,Bank transfer,11,No
+CUST0212,Aarav Singh,23.0,Hyderabad,Standard,Monthly,4,1176.41,4523.17,DSL,No,Debit card,45,No
+CUST0213,Rohan Rao,42.0,Hyderabad,Standard,Monthly,42,339.11,12923.88,DSL,Yes,Cash,35,No
+CUST0214,Sanjay Sharma,65.0,Chennai,Basic,Monthly,50,431.59,21813.01,No,Yes,UPI,51,No
+CUST0215,Arjun Khan,19.0,Guntur,Basic,One year,26,2344.13,58175.28,Fiber optic,No,Credit card,48,No
+CUST0216,Pooja Singh,48.0,Vijayawada,Premium,Monthly,3,2109.98,6033.37,No,Yes,UPI,70,No
+CUST0217,Kiran Reddy,24.0,Kolkata,Premium,Monthly,62,534.13,31772.33,DSL,Yes,Debit card,53,No
+CUST0218,Varun Khan,38.0,Visakhapatnam,Basic,Monthly,0,1120.72,0.0,No,No,Bank transfer,85,No
+CUST0219,Vikram Patel,41.0,Delhi,Standard,Monthly,8,2045.24,15879.65,DSL,No,Bank transfer,79,No
+CUST0220,Priya Singh,27.0,Kolkata ,Premium,Monthly,48,820.12,38943.51,Fiber optic,No,UPI,88,No
+CUST0221,Divya Khan,61.0,Kolkata,Basic,Monthly,17,1985.64,30412.65,DSL,Yes,Credit card,32,Yes
+CUST0222,Meera Patel,27.0,Chennai,Standard,One year,20,509.57,9002.16,Fiber optic,No,Debit card,72,No
+CUST0223,Priya Kumar,71.0,Visakhapatnam,Standard,Monthly,56,1391.89,79371.47,No,No,Credit card,38,Yes
+CUST0224,Kiran Khan,59.0,Delhi,Basic,Monthly,40,1822.36,74263.05,No,,Cash,31,No
+CUST0225,Pooja Sharma,50.0,Guntur,Standard,One year,38,1998.77,69655.62,No,Yes,Bank transfer,69,No
+CUST0226,Aarav Das,49.0,Bengaluru,Standard,Two year,40,1656.74,62421.81,Fiber optic,No,Cash,20,Yes
+CUST0227,Sanjay Khan,23.0,Mumbai,Basic,Monthly,7,2235.17,15194.37,DSL,No,UPI,1,Yes
+CUST0228,Rohan Reddy,61.0,Kolkata,Standard,One year,43,1755.05,72304.3,Fiber optic,No,UPI,57,Yes
+CUST0229,Neha Sharma,47.0,Pune,Basic,One year,35,2414.66,81884.27,Fiber optic,No,Cash,54,No
+CUST0230,Rahul Khan,40.0,Mumbai,basic,Two year,15,301.72,4173.33,No,No,,4,No
+CUST0231,Rohan Reddy,50.0,Bengaluru,Basic,One year,64,2151.47,131213.39,No,Yes,Cash,15,No
+CUST0232,Arjun Rao,58.0,Vijayawada,Basic,Monthly,37,649.47,21359.06,No,Yes,Credit card,84,Yes
+CUST0233,Priya Reddy,21.0,Mumbai,Standard,Monthly,1,2360.31,2260.07,DSL,Yes,Cash,81,Yes
+CUST0234,Kiran Sharma,29.0,Chennai,Standard,One year,54,654.88,35012.67,No,No,Bank transfer,48,No
+CUST0235,Varun Rao,20.0,Vijayawada,Standard,One year,41,1486.41,58987.34,DSL,No,UPI,79,No
+CUST0236,Isha Das,35.0,Mumbai,Basic,Monthly,6,969.29,5183.74,Fiber optic,Yes,Debit card,77,No
+CUST0237,Rahul Singh,48.0,Visakhapatnam,Standard,One year,19,-199.0,29947.71,Fiber optic,Yes,UPI,13,No
+CUST0238,Pooja Singh,42.0,Bengaluru,Standard,Monthly,64,1632.76,103145.85,No,Yes,Cash,12,Yes
+CUST0239,Sanjay Das,49.0,Kolkata ,Basic,Monthly,7,1351.11,8992.97,No,Yes,Bank transfer,12,No
+CUST0240,Arjun Rao,19.0,Kolkata,Standard,Monthly,30,1412.51,39897.69,Fiber optic,Yes,UPI,59,Yes
+CUST0241,Varun Sharma,28.0,Vijayawada,Standard,One year,22,633.45,12383.29,No,Yes,Cash,49,Yes
+CUST0242,Sneha Kumar,63.0,Pune,Basic,Monthly,30,1828.08,55813.94,No,No,Bank transfer,6,Yes
+CUST0243,Sneha Rao,69.0,Vijayawada,Premium,Two year,15,436.04,6222.2,Fiber optic,No,Bank transfer,51,No
+CUST0244,Rohan Kumar,52.0,Vijayawada,Premium,Monthly,35,1458.49,47966.54,DSL,No,UPI,6,No
+CUST0245,Sanjay Singh,19.0,Mumbai,Standard,One year,26,1210.09,31331.94,No,Yes,Debit card,61,Yes
+CUST0246,Rahul Reddy,18.0,Vijayawada,Basic,One year,20,341.22,6253.7,Fiber optic,No,Credit card,12,No
+CUST0247,Rahul Singh,38.0,Delhi,Basic,Monthly,52,2062.38,108781.71,Fiber optic,No,Credit card,51,No
+CUST0248,Rahul Khan,52.0,Delhi,Basic,Two year,54,627.32,30413.5,Fiber optic,Yes,Debit card,51,No
+CUST0249,Meera Reddy,26.0,Pune,Premium,Two year,28,1309.78,36303.52,Fiber optic,No,Credit card,40,No
+CUST0250,Divya Reddy,57.0,Chennai,Premium,Monthly,0,2078.54,0.0,DSL,No,UPI,20,Yes
+CUST0251,Ananya Rao,40.0,Kolkata,Standard,Two year,27,1700.84,44651.06,DSL,No,Credit card,87,No
+CUST0252,Sneha Reddy,74.0,Kolkata,Standard,Monthly,44,629.37,27228.18,DSL,No,UPI,86,Yes
+CUST0253,Neha Rao,57.0,Pune,Basic,Monthly,42,1748.88,72887.25,Fiber optic,No,Bank transfer,57,No
+CUST0254,Divya Patel,60.0,Mumbai,Standard,One year,30,951.38,26513.77,Fiber optic,Yes,Debit card,57,No
+CUST0255,Varun Das,65.0,Mumbai,Standard,Monthly,4,1508.16,6010.17,Fiber optic,No,Credit card,80,Yes
+CUST0256,Arjun Reddy,21.0,Mumbai,Basic,Monthly,7,1991.29,13485.35,DSL,No,Debit card,77,Yes
+CUST0257,Priya Sharma,44.0,Mumbai,Basic,Two year,40,2410.62,91310.02,DSL,Yes,Debit card,1,No
+CUST0258,Varun Reddy,32.0,Guntur,Standard,One year,12,1580.33,18674.38,DSL,Yes,Bank transfer,16,Yes
+CUST0259,Pooja Kumar,67.0,Guntur,Standard,Monthly,39,1615.77,56291.43,DSL,No,Cash,21,Yes
+CUST0260,Pooja Patel,75.0,Guntur,Basic,Monthly,29,2341.3,66175.65,DSL,No,Credit card,31,No
+CUST0261,Aarav Rao,25.0,Bengaluru,Standard,Monthly,38,2161.33,82840.95,No,No,Credit card,45,No
+CUST0262,Kiran Kumar,45.0,Mumbai,Standard,Monthly,6,696.31,3708.02,Fiber optic,Yes,Bank transfer,28,Yes
+CUST0263,Varun Kumar,125.0,Bengaluru,Premium,One year,12,661.59,7132.8,DSL,No,Bank Transfer,22,No
+CUST0264,Kiran Khan,36.0,Bengaluru,Standard,One year,43,1911.16,78556.83,Fiber optic,Yes,Debit card,22,No
+CUST0265,Priya Kumar,75.0,Pune,Standard,Two year,28,505.27,13593.03,Fiber optic,No,UPI,15,No
+CUST0266,Priya Das,59.0,Kolkata,Basic,Two year,71,841.69,58666.66,No,Yes,Cash,88,No
+CUST0267,Divya Reddy,26.0,Mumbai,Standard,One year,9,1932.17,17287.22,Fiber optic,Yes,Cash,35,No
+CUST0268,Pooja Patel,28.0,Kolkata,Premium,Monthly,57,376.68,21135.87,Fiber optic,Yes,UPI,15,Yes
+CUST0269,Pooja Sharma,41.0,Delhi,STANDARD,Monthly,69,2227.63,156701.72,No,Yes,Bank transfer,25,No
+CUST0270,Isha Kumar,74.0,Guntur,Basic,Monthly,36,1757.69,55700.27,Fiber optic,No,UPI,44,Yes
+CUST0271,Pooja Sharma,75.0,Vijayawada,Standard,Monthly,19,1184.12,22552.2,DSL,Yes,Cash,54,Yes
+CUST0272,Rohan Reddy,36.0,Hyderabad,Standard,One year,3,415.17,1180.9,Fiber optic,No,Credit card,48,Yes
+CUST0273,Varun Das,48.0,Chennai,Standard,Monthly,62,468.53,25801.11,DSL,Yes,Bank transfer,63,No
+CUST0274,Ananya Singh,69.0,Pune ,Standard,Monthly,18,1267.44,20547.21,DSL,Yes,UPI,46,Yes
+CUST0275,Rohan Singh,44.0,Delhi,Standard,Monthly,56,2351.85,127747.11,Fiber optic,No,Debit card,14,No
+CUST0276,Ananya Patel,69.0,Mumbai,Premium,One year,69,2479.48,168451.26,Fiber optic,Yes,Debit card,60,No
+CUST0277,Vikram Sharma,34.0,Vijayawada,Premium,Monthly,9,1034.92,8230.73,Fiber optic,No,Bank transfer,50,Yes
+CUST0278,Sanjay Rao,66.0,Chennai,Premium,Two year,18,869.45,14713.47,Fiber optic,No,Debit card,20,No
+CUST0279,Vikram Sharma,18.0,Guntur,Standard,Monthly,63,1361.53,77086.14,DSL,No,Cash,23,No
+CUST0280,Sneha Singh,37.0,Vijayawada ,Basic,Monthly,56,314.46,15637.81,DSL,Yes,Debit card,23,Yes
+CUST0281,Meera Singh,72.0,Visakhapatnam,Basic,Monthly,35,328.49,10572.6,No,No,,13,Yes
+CUST0282,Varun Rao,,Visakhapatnam,Standard,Monthly,9,897.29,7965.1,DSL,No,Cash,55,Yes
+CUST0283,Neha Singh,49.0,Hyderabad,Basic,One year,56,1060.02,54857.19,DSL,No,Debit card,74,No
+CUST0284,Sneha Kumar,31.0,Chennai,Premium,Monthly,19,580.57,11069.43,No,No,UPI,56,No
+CUST0285,Kiran Sharma,36.0,Pune,Basic,One year,36,2457.85,81042.47,No,No,Debit card,88,No
+CUST0286,Sanjay Kumar,24.0,Kolkata,Basic,Monthly,11,1067.91,10525.01,DSL,No,Debit card,85,Yes
+CUST0287,Pooja Das,39.0,Bengaluru,Standard,Two year,32,1450.46,41590.73,No,Yes,Cash,48,Yes
+CUST0288,Pooja Khan,39.0,Vijayawada,Standard,Two year,16,1647.38,24029.62,No,No,Credit card,56,No
+CUST0289,Priya Kumar,,Chennai,Standard,Monthly,65,513.64,33409.24,Fiber optic,No,Cash,39,Yes
+CUST0290,Priya Singh,24.0,Mumbai,Standard,Monthly,37,2073.09,72431.41,No,No,Credit card,20,Yes
+CUST0291,Meera Das,32.0,Pune,Basic,One year,19,1497.67,28062.46,DSL,Yes,UPI,85,Yes
+CUST0292,Varun Reddy,,Visakhapatnam,Standard,Two year,13,824.35,10107.57,DSL,No,Debit card,2,Yes
+CUST0293,Rahul Singh,67.0,Mumbai,Standard,One year,71,920.35,61077.96,DSL,Yes,Debit card,42,No
+CUST0294,Divya Sharma,58.0 years,Pune,Basic,Monthly,18,1269.36,20732.37,DSL,Yes,upi,35,Yes
+CUST0295,Aarav Rao,37.0,Delhi, Premium ,Two year,71,2054.41,136445.58,No,No,Bank transfer,69,No
+CUST0296,Kiran Sharma,55.0,Bengaluru,Premium,Monthly,11,664.28,7057.81,Fiber optic,No,Bank transfer,32,Yes
+CUST0297,Neha Khan,47.0,Kolkata,Premium,One year,0,372.44,0.0,DSL,Yes,Debit card,69,No
+CUST0298,Rahul Das,72.0,Visakhapatnam,Premium,Monthly,18,2240.32,40023.5,No,No,Credit card,20,Yes
+CUST0299,Sneha Reddy,44.0,Guntur,Standard,Two year,29,1695.28,44405.79,No,Yes,UPI,68,No
+CUST0300,Kiran Singh,52.0,Chennai,Basic,One year,24,503.67,10687.2,DSL,No,Credit card,60,No
+CUST0301,Pooja Singh,64.0,Bengaluru,Basic,One year,8,2100.94,16063.13,Fiber optic,Yes,Cash,72,No
+CUST0302,Vikram Reddy,50.0,Mumbai,Basic,Monthly,2,2234.61,4261.67,No,Yes,Cash,84,Yes
+CUST0303,Sneha Reddy,65.0,Chennai ,Standard,Monthly,34,611.34,19303.79,No,No,Cash,21,No
+CUST0304,Ananya Kumar,33.0,Bengaluru,Standard,Two year,16,2150.18,32544.44,DSL,No,upi,33,No
+CUST0305,Neha Kumar,18.0,,Basic,One year,65,991.82,56766.56,No,No,Debit card,71,No
+CUST0306,Isha Patel,74.0,Guntur,Standard,Monthly,62,1047.84,65050.15,Fiber optic,No,UPI,52,Yes
+CUST0307,Ananya Reddy,32.0,Visakhapatnam,Premium,Monthly,45,1969.35,89197.24,Fiber optic,No,Bank transfer,81,Yes
+CUST0308,Arjun Rao,53.0,Kolkata,Standard,Monthly,5,1774.61,8504.48,DSL,No,Debit card,71,Yes
+CUST0309,Pooja Khan,,Chennai,Standard,Monthly,61,1135.88,70449.41,Fiber optic,Yes,Debit card,13,Yes
+CUST0310,Divya Das,36.0,Bengaluru,Premium,One year,25,2424.74,54425.93,Fiber optic,No,Credit card,72,No
+CUST0311,Kiran Sharma,36.0,Hyderabad,Basic,One year,27,338.61,9277.72,Fiber optic,No,Cash,46,No
+CUST0312,Neha Patel,50.0,Chennai,Basic,Monthly,13,779.58,9089.01,Fiber optic,No,Credit card,51,Yes
+CUST0313,Sneha Das,21.0,Delhi,Standard,Monthly,13,1615.39,19353.94,Fiber optic,No,Debit card,7,Yes
+CUST0314,Isha Kumar,46.0,Bengaluru, Premium ,Two year,1,1768.17,1702.84,Fiber optic,No,Credit card,61,Yes
+CUST0315,Arjun Rao,22.0,Hyderabad,Premium,Two year,47,375.27,16960.28,DSL,No,Bank transfer,47,No
+CUST0316,Isha Singh,52.0,Delhi ,Standard,One year,19,783.5,14117.95,DSL,Yes,Bank transfer,80,Yes
+CUST0317,Kiran Singh,32.0,Vijayawada,Premium,Monthly,64,354.31,22159.35,Fiber optic,No,UPI,18,No
+CUST0318,Sanjay Kumar,68.0,Kolkata,Standard,Two year,25,,14950.43,No,Yes,Debit card,3,No
+CUST0319,Meera Sharma,19.0,Guntur,Standard,Monthly,54,1426.2,68896.78,No,No,Cash,87,No
+CUST0320,Vikram Sharma,35.0,Chennai,Standard,Monthly,33,1339.37,44983.2,DSL,No,Debit card,16,No
+CUST0321,Rohan Rao,46.0,Chennai,Basic,Monthly,60,1338.49,71185.52,DSL,,Cash,39,No
+CUST0322,Ananya Kumar,63.0,Hyderabad,Standard,Monthly,13,1642.72,19631.89,DSL,No,Bank transfer,61,Yes
+CUST0323,Varun Reddy,59.0,Kolkata,Premium,Monthly,7,379.79,2379.71,No,Yes,Debit card,53,No
+CUST0324,Rohan Reddy,,Guntur,Standard,One year,8,2095.7,15421.65,No,No,Cash,40,No
+CUST0325,Rohan Das,18.0,Kolkata,Basic,Two year,38,1384.8,51481.35,Fiber optic,No,UPI,39,No
+CUST0326,Pooja Rao,62.0,Bengaluru,Standard,One year,18,1203.25,21811.53,Fiber optic,No,UPI,89,No
+CUST0327,Isha Singh,64.0,Kolkata,Basic,Monthly,68,302.44,19930.35,No,Yes,UPI,83,Yes
+CUST0328,Isha Reddy,45.0,Delhi,Standard,Monthly,17,550.87,8744.26,No,No,Credit card,39,Yes
+CUST0329,Divya Kumar,30.0,Kolkata,Standard,One year,14,1948.67,25583.78,No,Yes,Credit card,9,No
+CUST0330,Aarav Das,,Vijayawada,Premium,One year,13,1698.41,22252.88,Fiber optic,Yes,Bank transfer,1,No
+CUST0331,Arjun Khan,60.0,Delhi,,One year,37,2122.84,80019.91,No,No,UPI,64,No
+CUST0332,Kiran Patel,40.0,Delhi,Standard,Monthly,54,1568.84,75070.04,Fiber optic,No,Cash,23,Yes
+CUST0333,Sanjay Rao,70.0,Chennai,Standard,Monthly,37,2159.33,78053.55,Fiber optic,No,Cash,29,Yes
+CUST0334,Pooja Singh,40.0,Kolkata,Standard,Monthly,59,796.81,43899.31,Fiber optic,Yes,Credit card,74,No
+CUST0335,Vikram Singh,51.0,Pune,Standard,Monthly,47,326.08,14280.66,Fiber optic,No,Credit card,55,No
+CUST0336,Isha Rao,46.0,Visakhapatnam,Basic,Two year,27,1246.16,30280.45,Fiber optic,No,Debit card,73,No
+CUST0337,Priya Khan,66.0,Guntur,Standard,Monthly,59,1132.6,58867.37,Fiber optic,Yes,Debit card,37,No
+CUST0338,Ananya Singh,21.0,Bengaluru,Premium,Monthly,63,1631.71,95709.12,Fiber optic,No,Debit card,49,No
+CUST0339,Isha Patel,63.0,Pune,Basic,Monthly,68,801.67,55431.75,No,No,Cash,63,Yes
+CUST0340,Vikram Reddy,54.0,Bengaluru,Basic,Monthly,50,350.37,17270.96,No,Yes,Credit card,41,No
+CUST0341,Ananya Patel,64.0,Pune,Premium,One year,34,2253.49,73891.96,DSL,Yes,Bank transfer,16,No
+CUST0342,Rohan Das,40.0,Bengaluru,STANDARD,One year,21,1490.1,28212.34,No,Yes,UPI,50,No
+CUST0343,Sneha Khan,61.0,Visakhapatnam,Basic,Monthly,2,964.13,1766.88,Fiber optic,Yes,Debit card,20,Yes
+CUST0344,Rohan Singh,30.0,Hyderabad,Standard,Monthly,43,0.0,87441.8,DSL,Yes,Cash,10,No
+CUST0345,Ananya Reddy,36.0,Guntur,Basic,Monthly,50,2020.25,99279.22,DSL,Yes,Bank transfer,36,No
+CUST0346,Isha Reddy,70.0,Mumbai,Basic,Monthly,7,385.81,2556.39,DSL,Yes,Debit card,10,No
+CUST0347,Priya Rao,34.0,Mumbai ,Standard,Monthly,53,1472.45,78179.98,Fiber optic,No,Credit card,55,Yes
+CUST0348,Varun Singh,61.0,Pune,Premium,Two year,19,1325.92,22290.93,DSL,No,Credit card,51,No
+CUST0349,Varun Singh,32.0,Chennai,Basic,Monthly,69,1594.21,102580.54,DSL,No,Debit card,26,No
+CUST0350,Arjun Reddy,68.0,Kolkata,Premium,Two year,63,1382.12,83661.94,No,No,Bank transfer,46,No
+CUST0351,Rohan Sharma,34.0,Guntur,Basic,Two year,3,2073.5,5889.0,No,Yes,Credit card,71,Yes
+CUST0352,Kiran Das,72.0,Vijayawada,Premium,Monthly,18,985.18,16240.93,DSL,Yes,Debit card,79,Yes
+CUST0353,Sanjay Patel,33.0,Visakhapatnam,,One year,21,1811.99,37335.62,Fiber optic,No,Debit card,75,No
+CUST0354,Aarav Singh,67.0,Vijayawada,Standard,Monthly,65,1032.5,65946.57,No,Yes,UPI,7,No
+CUST0355,Priya Das,18.0,Mumbai,Standard,Monthly,25,2121.63,48863.62,DSL,,Cash,14,No
+CUST0356,Meera Sharma,52.0,Mumbai,Premium,One year,36,311.46,11338.06,Fiber optic,Yes,Credit card,65,No
+CUST0357,Kiran Das,55.0,Chennai,Standard,Monthly,62,493.93,29039.43,Fiber optic,No,Bank transfer,74,Yes
+CUST0358,Isha Patel,55.0 years,Pune,Basic,Two year,71,543.2,38303.13,No,Yes,Cash,15,No
+CUST0359,Varun Rao,19.0,Bengaluru,Standard,One year,65,468.1,28907.83,No,Yes,UPI,89,Yes
+CUST0360,Arjun Reddy,73.0,Chennai,Standard,Two year,12,1766.08,19276.18,Fiber optic,No,UPI,54,No
+CUST0361,Arjun Das,30.0,Bengaluru,Standard,Two year,26,347.46,8687.56,No,No,UPI,20,No
+CUST0362,Varun Reddy,27.0,Delhi,Premium,Monthly,18,1086.19,18978.45,Fiber optic,No,Cash,9,No
+CUST0363,Ananya Das,70.0,Mumbai,Standard,Monthly,71,1519.25,104543.67,No,Yes,Bank transfer,23,Yes
+CUST0364,Vikram Kumar,48.0,Pune,Standard,Two year,21,1538.24,28969.16,No,Yes,UPI,77,No
+CUST0365,Neha Rao,48.0,Bengaluru,Standard,Monthly,33,593.42,18958.91,No,Yes,UPI,25,Yes
+CUST0366,Isha Kumar,22.0,Mumbai ,Premium,Monthly,17,906.57,15087.69,Fiber optic,Yes,Credit card,43,Yes
+CUST0367,Neha Rao,61.0,Guntur,Basic,Monthly,63,994.79,56045.17,Fiber optic,No,Bank transfer,67,No
+CUST0368,Rahul Reddy,34.0,Vijayawada,Premium,Monthly,14,2373.56,31207.27,DSL,Yes,Cash,57,No
+CUST0369,Sanjay Reddy,38.0,Pune,Basic,One year,28,1151.83,31237.9,DSL,Yes,Debit card,12,Yes
+CUST0370,Varun Khan,37.0,Delhi,Premium,One year,32,911.57,26199.08,Fiber optic,Yes,Credit card,82,No
+CUST0371,Varun Rao,52.0,Chennai,Standard,Monthly,11,2497.83,24582.16,Fiber optic,Yes,UPI,46,No
+CUST0372,Ananya Khan,54.0,Kolkata,Premium,Monthly,17,1694.73,28462.07,DSL,Yes,Credit card,12,Yes
+CUST0373,Rahul Sharma,53.0,Kolkata,Standard,Two year,30,1882.24,52625.32,DSL,No,Cash,86,No
+CUST0374,Ananya Patel,23.0,Hyderabad,Basic,Two year,44,378.07,15558.17,Fiber optic,No,Credit card,43,No
+CUST0375,Arjun Kumar,30.0,Chennai,Basic,One year,20,1799.83,34036.28,No,No,Credit card,56,Yes
+CUST0376,Rohan Rao,54.0,Pune,Premium,Monthly,48,544.33,24879.47,Fiber optic,Yes,Cash,23,Yes
+CUST0377,Divya Khan,34.0,Mumbai,Standard,Monthly,1,341.52,306.48,Fiber optic,Yes,Cash,11,Yes
+CUST0378,Sneha Khan,18.0,Delhi,Basic,Two year,53,885.69,46072.21,Fiber optic,Yes,Debit card,83,No
+CUST0379,Sanjay Rao,59.0,Guntur,Premium,Monthly,27,886.96,21811.11,Fiber optic,Yes,Debit card,58,No
+CUST0380,Sanjay Reddy,50.0,Delhi,Basic,Monthly,46,2074.74,85591.6,Fiber optic,Yes,Credit card,54,Yes
+CUST0381,Meera Reddy,30.0,Visakhapatnam,Standard,One year,57,790.18,43682.76,DSL,No,Bank transfer,6,No
+CUST0382,Kiran Khan,39.0,Pune,Standard,One year,50,350.91,17647.24,Fiber optic,Yes,Debit card,58,No
+CUST0383,Rahul Das,40.0,Vijayawada,Standard,Two year,3,2277.8,6692.76,DSL,Yes,UPI,43,No
+CUST0384,Vikram Khan,32.0,Kolkata,Premium,One year,3,2406.14,7304.91,No,Yes,UPI,31,No
+CUST0385,Arjun Patel,42.0,Visakhapatnam,Standard,One year,27,2008.24,49271.82,DSL,No,Debit card,9,No
+CUST0386,Aarav Patel,28.0,Pune,Premium,Monthly,44,906.72,40591.12,No,Yes,Bank transfer,64,Yes
+CUST0387,Divya Patel,63.0,Guntur,Standard,One year,48,2383.27,106072.02,DSL,No,Debit card,25,Yes
+CUST0388,Sanjay Das,150.0,Delhi,Standard,Monthly,4,1393.09,5083.3,No,No,Debit card,14,Yes
+CUST0389,Vikram Rao,31.0,Delhi,Premium,One year,60,2386.96,145326.25,Fiber optic,No,UPI,73,No
+CUST0390,Isha Rao,60.0,Pune,Standard,Monthly,45,1251.2,49893.56,Fiber optic,No,Bank transfer,32,Yes
+CUST0391,Ananya Patel,65.0,Chennai,Basic,Two year,49,2177.33,97500.76,DSL,No,Cash,55,No
+CUST0392,Neha Singh,40.0 years,Chennai,Standard,Monthly,63,2395.64,143855.31,DSL,No,Credit card,54,No
+CUST0393,Sanjay Patel,60.0,Visakhapatnam,Standard,One year,25,330.22,8223.43,No,No,Debit card,79,No
+CUST0394,Isha Das,47.0,Visakhapatnam,Standard,Two year,65,2426.52,147470.35,DSL,No,Credit card,64,No
+CUST0395,Kiran Das,26.0,Chennai,Standard,One year,42,1765.52,66942.65,No,Yes,Cash,36,No
+CUST0396,Ananya Sharma,57.0,Hyderabad,Standard,Monthly,35,1084.46,38323.03,DSL,No,Credit card,65,Yes
+CUST0397,Divya Sharma,30.0,Chennai,Basic,Monthly,54,1902.5,91778.92,DSL,Yes,Cash,44,No
+CUST0398,Varun Rao,42.0,Hyderabad,Premium,Two year,9,2282.04,18516.01,No,No,Bank transfer,70,No
+CUST0399,Aarav Kumar,31.0,Delhi,Premium,Two year,66,1162.41,75614.08,No,No,UPI,16,No
+CUST0400,Aarav Singh,18.0,Delhi,Standard,One year,17,2482.37,39418.67,Fiber optic,Yes,Cash,57,No
+CUST0401,Neha Reddy,75.0,Bengaluru,Basic,Monthly,25,2319.13,51847.2,DSL,Yes,Credit card,64,Yes
+CUST0402,Arjun Singh,73.0,Vijayawada,Standard,Monthly,16,624.99,9751.21,Fiber optic,No,UPI,50,No
+CUST0403,Pooja Khan,24.0,Visakhapatnam,Standard,Monthly,20,1435.74,28319.36,No,Yes,Credit card,25,No
+CUST0404,Meera Sharma,62.0,Hyderabad,Premium,One year,39,1181.07,45455.34,DSL,No,Bank transfer,7,No
+CUST0405,Sanjay Das,75.0,Hyderabad,Standard,Monthly,40,949.53,36580.92,No,Yes,Credit card,14,Yes
+CUST0406,Rahul Das,46.0,Guntur,Basic,One year,36,1311.01,42160.86,No,No,Cash,23,No
+CUST0407,Priya Kumar,40.0,Pune,Standard,Two year,23,1739.23,36051.0,DSL,No,Debit card,68,No
+CUST0408,Ananya Sharma,27.0,Mumbai,Standard,Monthly,52,1983.2,90751.4,No,Yes,Credit card,39,Yes
+CUST0409,Rohan Kumar,21.0,Pune,Premium,Monthly,6,746.87,3949.8,No,Yes,Bank transfer,75,Yes
+CUST0410,Rahul Singh,47.0,Chennai,Standard,Monthly,37,1908.79,68484.51,No,Yes,Cash,61,No
+CUST0411,Sanjay Rao,53.0,Guntur,Basic,Monthly,24,855.19,18841.57,No,Yes,UPI,38,No
+CUST0412,Pooja Kumar,48.0,Bengaluru,Standard,One year,15,1958.35,27467.25,Fiber optic,Yes,UPI,41,Yes
+CUST0413,Rohan Khan,74.0,Vijayawada,Premium,One year,31,667.11,20458.89,DSL,No,Bank transfer,16,Yes
+CUST0414,Isha Patel,42.0,Vijayawada,Standard,Monthly,67,2387.26,154908.48,No,No,Bank transfer,50,No
+CUST0415,Sneha Khan,23.0,Bengaluru,Basic,Monthly,35,2438.32,80462.58,No,No,Credit card,0,Yes
+CUST0416,Rahul Sharma,26.0,Mumbai,Basic,Monthly,22,574.28,12622.36,DSL,No,Credit card,12,Yes
+CUST0417,Sanjay Rao,64.0,Vijayawada,Standard,Two year,69,1037.34,72792.8,DSL,Yes,UPI,54,No
+CUST0418,Meera Das,35.0,Vijayawada,Standard,Monthly,63,1390.77,81771.94,Fiber optic,Yes,Credit card,82,No
+CUST0419,Rahul Reddy,21.0,Guntur,Premium,One year,42,2144.79,79415.43,Fiber optic,No,UPI,87,No
+CUST0420,Aarav Sharma,22.0,Vijayawada,Standard,Monthly,58,1401.39,79562.92,No,Yes,Cash,26,No
+CUST0421,Rohan Khan,60.0,Hyderabad,Premium,One year,85,559.68,2839.29,Fiber optic,No,Bank transfer,73,Yes
+CUST0422,Rahul Patel,25.0,Kolkata,Premium,Monthly,19,1788.74,32881.65,No,Yes,Bank transfer,6,No
+CUST0423,Sneha Reddy,25.0,Mumbai,Standard,Two year,55,2356.65,129498.48,Fiber optic,No,Bank transfer,11,No
+CUST0424,Kiran Sharma,31.0,Chennai,Basic,One year,52,,47068.62,Fiber optic,No,Bank transfer,68,No
+CUST0425,Meera Das,47.0,Bengaluru,Standard,Monthly,58,1081.88,55956.38,Fiber optic,No,Credit card,46,Yes
+CUST0426,Isha Patel,36.0,Visakhapatnam,Standard,One year,38,2376.79,87594.28,DSL,Yes,Debit card,53,No
+CUST0427,Aarav Khan,46.0,Vijayawada,Premium,Monthly,19,910.28,15888.95,No,No,Debit card,73,Yes
+CUST0428,Varun Rao,37.0,Guntur,Standard,Two year,16,525.87,8049.51,No,Yes,Debit card,40,No
+CUST0429,Rohan Patel,33.0,Visakhapatnam,Basic,Monthly,48,1061.35,47667.3,Fiber optic,Yes, debit card ,1,No
+CUST0430,Rohan Singh,55.0,Visakhapatnam,Basic,One year,23,1743.86,40734.29,No,Yes,Debit card,19,Yes
+CUST0431,Sanjay Singh,51.0,Guntur,Standard,One year,40,501.55,19337.08,Fiber optic,Yes,Cash,21,No
+CUST0432,Arjun Reddy,53.0,Delhi,Standard,Monthly,66,1120.17,70893.56,DSL,No,Credit card,58,No
+CUST0433,Varun Singh,39.0,Bengaluru,,Monthly,1,2204.41,2232.06,Fiber optic,No,Credit card,50,No
+CUST0434,Meera Patel,18.0,Mumbai,Standard,One year,47,313.7,14568.77,No,Yes,Bank transfer,44,Yes
+CUST0435,Sanjay Sharma,63.0,Visakhapatnam,Basic,Two year,67,2358.79,151066.03,No,No,Cash,31,No
+CUST0436,Sanjay Khan,69.0,Delhi,Standard,Monthly,31,771.27,23266.19,DSL,No,Cash,84,Yes
+CUST0437,Rahul Sharma,73.0,Pune,Standard,Monthly,24,1253.85,27571.25,No,No,Credit card,16,Yes
+CUST0438,Ananya Khan,40.0,Vijayawada,Basic,One year,42,1701.91,65324.56,Fiber optic,,UPI,51,No
+CUST0439,Priya Singh,28.0,Pune,,Monthly,46,363.91,15565.32,No,Yes,Bank transfer,60,No
+CUST0440,Pooja Khan,27.0,Visakhapatnam ,,One year,49,1911.01,90356.72,No,Yes,Debit card,81,No
+CUST0441,Aarav Das,55.0,nan ,Standard,Monthly,37,1142.23,40110.93,Fiber optic,No,UPI,64,Yes
+CUST0442,Priya Reddy,66.0,Vijayawada, Premium ,Two year,7,INR 449.61,2933.12,Fiber optic,No,Bank transfer,59,No
+CUST0443,Arjun Das,75.0,Vijayawada,Standard,Monthly,27,2312.57,62462.83,Fiber optic,Yes,Bank transfer,59,Yes
+CUST0444,Varun Rao,39.0,Bengaluru,Basic,Two year,39,1272.6,48187.38,Fiber optic,Yes,UPI,10,No
+CUST0445,Aarav Rao,21.0,Bengaluru ,Basic,Monthly,57,347.21,18250.17,No,Yes,Credit card,78,No
+CUST0446,Sneha Reddy,65.0,Vijayawada,Basic,One year,0,1980.77,0.0,No,No,Bank transfer,28,Yes
+CUST0447,Divya Khan,36.0,Chennai,Standard,One year,4,2029.35,8214.44,DSL,No,Bank transfer,34,No
+CUST0448,Aarav Patel,38.0,Visakhapatnam,Standard,Monthly,67,935.21,57857.69,No,No,Bank transfer,60,No
+CUST0449,Aarav Patel,22.0,Pune,Basic,One year,62,467.6,29054.08,Fiber optic,Yes,Cash,35,No
+CUST0450,Priya Reddy,68.0,Vijayawada,Basic,Two year,48,1411.4,68543.7,Fiber optic,Yes,Bank transfer,34,No
+CUST0451,Priya Singh,20.0,Visakhapatnam,Premium,One year,38,725.5,27575.46,No,No,Cash,29,No
+CUST0452,Sanjay Khan,69.0,Kolkata,Standard,Monthly,56,328.15,16932.6,DSL,No,Debit card,22,No
+CUST0453,Varun Reddy,39.0,Mumbai,Standard,One year,44,662.63,25665.17,No,Yes,Credit card,32,No
+CUST0454,Rohan Sharma,68.0,Pune,Basic,Two year,29,INR 341.08,8933.89,Fiber optic,Yes,,35,No
+CUST0455,Pooja Reddy,36.0,Delhi,STANDARD,Monthly,33,1441.29,45901.94,Fiber optic,No,Cash,14,Yes
+CUST0456,Kiran Khan,,Guntur,Standard,Monthly,27,1557.21,42804.61,DSL,No,Cash,73,No
+CUST0457,Sneha Reddy,51.0,Visakhapatnam,Standard,Monthly,39,1843.72,65004.86,Fiber optic,Yes,Credit card,47,No
+CUST0458,Rohan Das,24.0,Kolkata,Basic,Monthly,47,1631.4,68732.84,DSL,No,UPI,12,No
+CUST0459,Isha Reddy,34.0,Pune,Premium,One year,68,1981.56,131383.58,Fiber optic,No,Bank transfer,42,No
+CUST0460,Isha Khan,33.0,Visakhapatnam,Basic,Two year,24,1780.14,40037.63,Fiber optic,Yes,UPI,24,No
+CUST0461,Aarav Patel,68.0,Mumbai,Premium,Two year,53,1890.58,95690.9,DSL,No,Credit card,50,No
+CUST0462,Meera Reddy,70.0,Visakhapatnam,Premium,Two year,70,1291.85,81900.36,No,No,Cash,45,No
+CUST0463,Priya Sharma,23.0,Mumbai,Basic,Monthly,29,1724.1,44107.59,No,No,Cash,75,Yes
+CUST0464,Ananya Das,30.0,Delhi,Premium,Monthly,56,1933.78,108151.97,DSL,No,UPI,44,No
+CUST0465,Divya Singh,57.0,Hyderabad,Basic,Monthly,19,2492.8,45386.65,Fiber optic,No,Debit card,58,Yes
+CUST0466,Rahul Das,,Bengaluru,Standard,One year,54,1112.06,56748.03,DSL,Yes,Cash,29,No
+CUST0467,Pooja Khan,32.0,Chennai,Premium,Monthly,1,1754.71,1663.04,No,Yes,Credit card,47,No
+CUST0468,Arjun Kumar,49.0,Kolkata,Standard,Monthly,24,1577.23,35569.06,Fiber optic,No,Cash,57,Yes
+CUST0469,Sneha Rao,75.0,Mumbai,Basic,One year,63,1868.12,109938.84,Fiber optic,No,Cash,16,No
+CUST0470,Priya Reddy,39.0,Guntur,Premium,One year,15,1968.17,28447.98,DSL,No,Credit card,61,No
+CUST0471,Kiran Patel,74.0,Chennai,Standard,One year,41,974.19,37469.23,No,No,Credit card,39,No
+CUST0472,Sanjay Das,43.0,Chennai,Standard,One year,58,2194.33,127475.99,No,No,Bank transfer,1,No
+CUST0473,Sanjay Das,55.0,Bengaluru,Standard,One year,49,1141.16,55640.41,No,Yes,Bank transfer,66,No
+CUST0474,Vikram Rao,63.0,Visakhapatnam,Premium,Monthly,37,1945.11,65600.23,Fiber optic,No,Cash,12,No
+CUST0475,Aarav Sharma,40.0,Visakhapatnam,Premium,One year,26,1608.67,38355.96,No,No,UPI,69,No
+CUST0476,Sanjay Patel,52.0,Guntur,Basic,Monthly,32,1250.16,35378.96,DSL,No,Debit card,78,No
+CUST0477,Rohan Singh,73.0,Vijayawada ,Standard,One year,4,1685.09,6741.28,No,Yes,Cash,28,Yes
+CUST0478,Isha Rao,55.0,Hyderabad,Basic,Two year,70,2490.55,173564.12,DSL,Yes,Bank transfer,250,No
+CUST0479,Aarav Sharma,62.0,Chennai,Premium,One year,26,2496.56,60089.62,Fiber optic,No,UPI,90,No
+CUST0480,Neha Patel,38.0,Chennai,Premium,Monthly,34,1555.56,48793.54,No,No,Credit card,53,No
+CUST0481,Vikram Sharma,67.0,Vijayawada,Basic,Monthly,29,987.11,27813.43,Fiber optic,Yes,Debit card,48,No
+CUST0482,Sneha Kumar,27.0,Guntur,Premium,Monthly,-2,590.82,17429.48,No,No,Credit card,82,Yes
+CUST0483,Neha Sharma,42.0,Bengaluru,basic,One year,24,451.52,10504.51,DSL,Yes,Bank transfer,19,Yes
+CUST0484,Rahul Reddy,22.0,Kolkata,Basic,Two year,47,1612.07,76520.83,DSL,No,UPI,50,No
+CUST0485,Aarav Rao,28.0,Bengaluru,Standard,One year,20,2457.46,47720.49,Fiber optic,Yes,Bank transfer,31,No
+CUST0486,Rahul Patel,61.0,Guntur,Basic,Two year,10,2131.23,19836.22,DSL,Yes,UPI,4,No
+CUST0487,Rohan Rao,24.0,Mumbai,Standard,Monthly,40,1716.36,69779.97,DSL,No,Credit card,3,No
+CUST0488,Kiran Sharma,31.0,Delhi,Standard,Monthly,64,693.58,43444.5,No,Yes,Cash,49,No
+CUST0489,Sneha Das,37.0,Vijayawada,Standard,Monthly,19,1806.87,30330.86,No,Yes,Credit card,37,No
+CUST0490,Neha Das,19.0,Pune,Standard,Two year,2,1704.87,3455.75,DSL,Yes,Credit card,35,No
+CUST0491,Priya Khan,,Vijayawada,Basic,Monthly,53,1582.02,80744.52,Fiber optic,No,Credit card,89,Yes
+CUST0492,Divya Singh,33.0,Bengaluru,Standard,Monthly,29,2313.48,64828.88,DSL,No,UPI,44,No
+CUST0493,Meera Patel,52.0,Delhi,Basic,One year,58,2248.41,118349.17,No,Yes,Bank transfer,50,No
+CUST0494,Meera Kumar,47.0,Pune ,Standard,Two year,36,2273.2,79148.41,Fiber optic,No,UPI,19,No
+CUST0495,Divya Das,28.0,Kolkata,Premium,Two year,52,2444.75,126412.08,DSL,Yes,Debit card,49,No
+CUST0496,Rohan Reddy,69.0,Guntur,Basic,Monthly,70,762.74,48699.26,No,No,Debit card,14,Yes
+CUST0497,Sneha Das,,Bengaluru,Basic,Monthly,2,2466.67,4456.01,DSL,Yes,UPI,63,Yes
+CUST0498,Vikram Patel,30.0,Hyderabad,Standard,One year,7,782.35,4835.01,DSL,No,Cash,35,No
+CUST0499,Meera Khan,40.0,Guntur,Premium,Monthly,25,2078.85,46803.7,No,No,UPI,21,Yes
+CUST0500,Kiran Singh,27.0,Bengaluru,Basic,One year,1,2123.49,2078.76,Fiber optic,Yes,Cash,39,No
+CUST0309,Pooja Khan,,Chennai,Standard,Monthly,61,1135.88,70449.41,Fiber optic,Yes,Debit card,13,Yes
+CUST0014,Ananya Patel,49.0,Hyderabad,Basic,Monthly,13,1385.35,17166.39,Fiber optic,No,Debit card,999,Yes
+CUST0415,Sneha Khan,23.0,Bengaluru,Basic,Monthly,35,2438.32,80462.58,No,No,Credit card,0,Yes
+CUST0033,Divya Singh,21.0,Visakhapatnam,Basic,Two year,29,1718.23,48515.65,DSL,Yes,Cash,34,No
+CUST0461,Aarav Patel,68.0,Mumbai,Premium,Two year,53,1890.58,95690.9,DSL,No,Credit card,50,No
+CUST0156,Rohan Khan,73.0,Visakhapatnam,Premium,Monthly,34,,65373.41,Fiber optic,Yes,Credit card,88,Yes
+CUST0250,Divya Reddy,57.0,Chennai,Premium,Monthly,0,2078.54,0.0,DSL,No,UPI,20,Yes
+CUST0218,Varun Khan,38.0,Visakhapatnam,Basic,Monthly,0,1120.72,0.0,No,No,Bank transfer,85,No
+CUST0222,Meera Patel,27.0,Chennai,Standard,One year,20,509.57,9002.16,Fiber optic,No,Debit card,72,No
+CUST0294,Divya Sharma,58.0 years,Pune,Basic,Monthly,18,1269.36,20732.37,DSL,Yes,upi,35,Yes
